@@ -27,7 +27,6 @@ for x, name in enumerate(clients.name, 1):
     print(f"{x}.{name}")
 communityid = clients.comId[int(input("Выберите сообщество/Select the community: "))-1]
 
-communityid = communityid[int(input("Выберите сообщество/Select the community: "))-1]
 sub_client = amino.SubClient(comId=communityid, profile=client.profile)
 z=0
 chats = sub_client.get_chat_threads(size=1000)
