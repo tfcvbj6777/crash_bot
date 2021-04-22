@@ -44,6 +44,6 @@ refid2 = '1606944633325' #crash refid №2
 refid3 = '182349782384762342' #crash refid №3
 refid4 = '777777777777777' #crash refid №4
 
-sub_client.send_message(chatId=chatx, message=msg, messageType=msgtype, rkfId=refid4)
+sub_client.send_message(chatId=chatx, message=msg, messageType=msgtype, refId=refid4)
 print("Bot Crashed chat!/Бот Крашнул чат!")
 #© 2021 GitHub, Inc.
